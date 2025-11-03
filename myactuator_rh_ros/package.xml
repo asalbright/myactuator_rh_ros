@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>myactuator_rh_ros</name>
+  <version>0.0.1</version>
+  <description>Metapackage for MyActuator RH-series actuators</description>
+  <maintainer email="tobit.flatscher@outlook.com">Tobit Flatscher</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>myactuator_rh_bringup</exec_depend>
+  <exec_depend>myactuator_rh_description</exec_depend>
+  <exec_depend>myactuator_rh_hardware</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
